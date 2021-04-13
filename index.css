@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --aliceblue: #CCCCFF;
+}
+
+body{
+    background-color: var(--aliceblue);
+}
+
+h1{
+    text-align: center;
+}

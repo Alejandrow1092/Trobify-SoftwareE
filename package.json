@@ -1,0 +1,19 @@
+{
+  "name": "trobify",
+  "version": "1.0.0",
+  "description": "Proyecto de SE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alejandrow1092/Trobify-SoftwareE.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alejandrow1092/Trobify-SoftwareE/issues"
+  },
+  "homepage": "https://github.com/Alejandrow1092/Trobify-SoftwareE#readme"
+}
