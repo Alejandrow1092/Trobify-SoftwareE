@@ -1,4 +1,4 @@
-##TROBIFY
+# TROBIFY
 
 ***En la carpeta de **/src** estaran las carpetas de /CSS,  /JS y la carpeta de /views para los html.***
 
