@@ -32,3 +32,8 @@ conexion.query('select * from inmueble;', (err, results, fields)=>{
 })
 
 conexion.end();
+
+
+module.exports={
+    conexion
+}

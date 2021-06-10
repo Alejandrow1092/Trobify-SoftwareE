@@ -1,45 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nav</title>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../CSS/estilos-nav.css" >
-    <link rel="stylesheet" href="../CSS/fonts.css">
-    <link rel="stylesheet" href="../CSS/estilos-sectionV1.css">
-    <link rel="stylesheet" href="../CSS/estilos-lr.css">
-    <link rel="stylesheet" href="../CSS/estilos-boton-s.css">
-
-</head>
-
-<body id="body">
-    <header>
-        <div class="menu-bar">
-
-            <p class="menu-logo">
-                <a href="index.html"><img src="../../public/assets/img/logo2.jpg" alt="logo"></a>
-                <span id="btn-show" class="icon-list-bullet"></span>
-            </p>
-
-        </div>
-        <div class="logo">
-            <a href="#"><img src="../../public/assets/img/logo2.jpg" alt="logo"></a>
-        </div>
-        <nav id="nav-menu" class="general-list">
-            <ul>
-                <li><a href="#" id="sign-up">Registrarse</a></li>
-                <li><a href="#" id="sign-in">Iniciar sesion</a></li>
-                <li><a href="#">Ayuda</a></li>
-                <li><a href="#">Contactos</a></li>
-                <li><a href="#">$Ofertas</a></li>
-            </ul>
-        </nav>
-    </header>
      <div id="div-flr" class="form-lr">
          <button class="btn-c" id="btn-c">Cerrar</button>
-        <form action="" class="form-g form-r" id="form-r">
+        <form action="/registro" class="form-g form-r" id="form-r" method="POST">
             <h1>¡Bienvenido!</h1>
             <label for="nombre">Nombre:</label>
             <input type="text" id="nombre">
@@ -61,7 +22,7 @@
             </button>
         </form>
 
-        <form action="" class="form-g form-l" id="form-l">
+        <form action="/" class="form-g form-l" id="form-l">
             <h1>¡Bienvenido!</h1>
             <label for="correo">Correo:</label>
             <input type="email" id="correo">
@@ -79,7 +40,7 @@
     </div>  
     <div class="section1">
         <div class="s1-container">
-            <div class="s1-container-logo"><img src="../../public/assets/img/logo2.jpg" alt=""></div>
+            <div class="s1-container-logo"><img src="/assets/img/logo2.jpg" alt=""></div>
             <div class="s1-container-slogan"><p>
                 Encuentra tu lugar 
             </p></div>
@@ -103,13 +64,6 @@
             </form>
         </div>
         
-        <img id="depa" src="../../public/assets/img/departamento.jpg" alt="departamento">
+        <img id="depa" src="assets/img/departamento.jpg" alt="departamento">
        
     </div>
-
-   
-    <script src="../JS/nav.js"></script>
-    <script src="../JS/forms-lr.js"></script>
-</body>
-
-</html>
